@@ -989,6 +989,10 @@ video {
   transition-duration: 300ms;
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 .hover\:bg-veryDarkBlue:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(240 100% 5% / var(--tw-bg-opacity));
@@ -1002,6 +1006,11 @@ video {
 .hover\:text-softOrange:hover {
   --tw-text-opacity: 1;
   color: hsl(35 77% 62% / var(--tw-text-opacity));
+}
+
+.hover\:text-softRed:hover {
+  --tw-text-opacity: 1;
+  color: hsl(5 85% 63% / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
